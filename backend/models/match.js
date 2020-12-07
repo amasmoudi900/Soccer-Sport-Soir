@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 // define model attributes
 const matchSchema = mongoose.Schema({
     teamOne:String,
-    
     scoreOne:String,
     teamTwo:String,
     scoreTwo:String,

@@ -43,4 +43,8 @@ export class SignupComponent implements OnInit {
     )
   }
 
+  onButtonClicked(){
+    alert('Btn clicked')
+  }
+
 }
