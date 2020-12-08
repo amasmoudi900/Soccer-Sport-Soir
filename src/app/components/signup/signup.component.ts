@@ -33,6 +33,7 @@ export class SignupComponent implements OnInit {
     })
   }
 
+  
   signUp(obj:any) {
     console.log('This is my user', obj);
     this.userService.signup(obj).subscribe(
